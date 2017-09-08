@@ -1,9 +1,9 @@
 # jQuery-easyTabs
 
-### 特点
-　　这是一个简易的选项卡插件，代码量仅3KB，灵活易用，支持动画
+### 简介
+　　这是一个简易的选项卡插件，代码量仅3KB，灵活易用，支持动画，可配置触发切换的事件类型
 
-### 这是使用该tab插件的效果截图
+### 效果截图
 ![demo1](https://raw.githubusercontent.com/ZRC-Struggling/jQuery-easyTabs/master/demos/imgs/demo1.jpg)
 
 ### 用法示例
@@ -51,6 +51,7 @@ $(function () {
 - 外层必须是class为"simple-tab"的div，该div内有"ul>li"和"div>div"结构
 - ul里面的li作为选项卡标题,并且第一个li要加上"active"类名
 - div里面的div作为选项卡内容，并且第一个div要加上"active"类名
+
 #### options对象可接收的参数：
 - type: 用于设置触发选项卡切换的事件类型，默认为"mouseover"
 - speed: 用于设置切换的时间，默认为0，单位为毫秒
@@ -58,4 +59,5 @@ $(function () {
 	- toogle: 等同于调用jQuery的show()
 	- slide: 等同于调用jQuery的slideDown()
 	- fade: 等同于调用jQuery的fadeIn()
+	
 #### animation只针对切换之后出现的tab，不管怎么样，切换之前的tab都会立即消失。
