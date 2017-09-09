@@ -8,11 +8,11 @@
 
 ### 用法示例
 - 引入样式表
-```
+```html
 <link rel="stylesheet" type="text/css" href="../src/jQuery.easyTabs.css">
 ```
 - 构建HTML结构
-```
+```html
 <div class="simple-tab">
     <ul>
     	<li class="active">tabTitle1</li>
@@ -30,16 +30,16 @@
 ```
 
 - 引入jQuery库
-```
+```html
 <script type="text/javascript" src="../jquery/jquery-2.2.3.js"></script>
 ```
 - 引入插件
-```
+```html
 <script type="text/javascript" src="../src/jQuery.easyTabs.js"></script>
 ```
 
 - 调用插件
-```
+```html
 <script>
 $(function () {
     $(".simple-tab").tabs(options);
